@@ -1,60 +1,64 @@
-
-#card{
+#card {
     position: absolute;
-    width: 20%;
-    height: 95%;
+    width: 350px;
+    height: 650px;
     border: double;
     border-radius: 25px;
-    background-color:  bisque;
+    background-color: bisque;
     box-shadow: 9px 10px 35px -6px rgba(0,0,0,0.75);
-
 }
-#inside_card{
+
+#inside_card {
     background-color: #ecdfc6;
     border-radius: 25px;
     border: double;
-    margin-left:5px;
-    margin-right:5px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
-.card-header{
+.card-header {
     text-align: center;
 }
 
-.img{
+.img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
-    height: 25%;
+    width: 300px;
+    height: 150px;
     border-radius: 25px;
 }
-.description{
+
+.description {
     text-align: left;
     font-size: 13px;
     margin-bottom: 40px;
-    margin-left: 10px;
-    margin-top:1px;
+    margin-left: 25px;
+    margin-top: 1px;
     font-style: italic;
-    padding-left:5px;
+    padding-left: 5px;
 }
-.general-info{
+
+.general-info {
     font-size: 14px;
     text-align: left;
     padding-left: 2%;
     line-height: 1.6;
     margin-top: 60px;
-
+    font-style: italic;
 }
-.attributes{
+
+.attributes {
     margin: 5px;
     margin-left: 5px;
+    font-style: italic;
 }
-.attributes,.card-header, .general-info
-{
+
+.attributes,.card-header, .general-info {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
-.attribute_description{
+
+.attribute_description {
     font-size: 14px;
     font-style: italic;
 }
